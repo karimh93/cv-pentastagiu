@@ -1,0 +1,115 @@
+body{
+margin: 0 auto;
+width:750px;
+
+}
+p{
+margin:0;
+padding:0;
+}
+
+header h1{
+color:violet;
+font-weight: bold;
+text-align: center;
+}
+
+header h3{
+color:violet;
+font-weight:normal;
+font-style: italic;
+text-align: center;
+}
+
+.container .description{
+color: azure; 
+font-family: monospace;
+background-color: gray;
+font-size: 18px;
+    }
+
+.container .content{
+color: azure; 
+font-family: monospace;
+background-color: gray;
+font-size: 18px;
+}    
+
+.container section::before{
+content: attr(title);
+background-color: white;
+position: absolute;
+padding-left: 15px;
+padding-right: 15px;
+top: -12px;
+left: 40px;
+font-size: 18px;
+}
+
+.container section {
+position: relative;
+border: 2px dashed black;
+border-radius: 10px;
+margin-bottom: 60px;
+padding: 15px;
+
+
+}
+.container section .content{
+margin-bottom: 15px;
+}
+.container section .content .job{
+float: left;
+width: 50%;
+}
+
+.container section .content .data{
+float: right;
+width: 50%;
+}
+
+.container section h3{
+padding: 0;
+margin:0;
+}
+
+    
+.container section .all{
+display: inline-block;
+}
+
+.container section .all .top{
+display: inline-block;
+}
+
+.container section .all .bottom{
+    display: inline-block;
+
+    }
+
+.container section .tooltipImageAndTitle{
+    line-height: 45px;
+    float: left;
+    width: auto;
+    margin: 10px 10px 10px 10px;
+    padding: 0 5px;
+    border: 1px solid black;
+    
+}
+
+
+
+.container section .tooltip{
+visibility: hidden;
+width: 120px;
+background-color: #555;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 125%;
+left: 50%;
+
+}
