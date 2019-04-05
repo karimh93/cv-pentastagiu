@@ -1,0 +1,149 @@
+body{
+margin: 0 10px;
+font-family: monospace;
+background-color: lightgray;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color:#f0efef;
+    }
+  }
+@media screen and (max-width: 600px) {
+    body {
+      background-color:#f9d5e5;
+    }
+  }
+
+
+p{
+margin: 0;
+padding: 0;
+color:saddlebrown;
+
+}
+
+header {
+text-align: center;
+color: rgba(15, 95, 95, 0.664);
+font-weight: bold;
+text-decoration: underline;
+margin-bottom:80px;
+}
+
+.container section{
+position: relative;
+border: 2px dashed black;
+border-radius: 10px;
+margin-bottom: 60px;
+padding: 20px;
+background-color:#fbefcc;
+
+}
+
+.container section .contentForSummary{
+display: flex;
+}
+
+.container section .title{
+position: absolute;
+top:-10px;
+left:30px;
+background-color:#fbefcc;
+padding: 1px;
+border-radius: 5px;
+
+}
+.container section .title:hover{
+color: aqua;
+transition: 1s;
+}
+
+.container section .contentForEducation{
+display: flex;
+}
+
+
+.container section .contentForEducation .left{
+display: flex;
+justify-content: flex-start;
+width: 50%;
+flex-direction: column;
+margin-right: 10px;
+
+}
+
+.container section .contentForEducation .right{
+display: flex;
+justify-content: flex-end;
+width: 50%;
+flex-direction: column;
+
+}
+
+.container section .contentForCareer{
+display: flex;
+flex-direction: row;
+}
+
+.container section .contentForCareer>p{
+margin-right: 10px;
+}
+
+.container section .contentForSkills .uniqueClass .img{
+width: 30px;
+}
+
+.container section .contentForSkills{
+display: flex;
+
+}
+.container section .contentForSkills{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+
+.container section .contentForSkills .All .tooltip{
+visibility: hidden;
+background-color: rgb(243, 234, 234);
+border: 2px solid black;
+border-radius: 10px;
+position: absolute;
+top:-85px;
+left: 50px;
+width: 100px;
+
+
+}
+
+.container section .contentForSkills .All  {
+position:relative;
+width: 140px;
+display: flex;
+height: 30px;
+margin-bottom: 20px;
+
+}
+
+.container section .contentForSkills .All .uniqueClass .name:hover{
+color: aqua;
+
+}
+
+.container section .contentForSkills .All:hover .tooltip{
+visibility: visible;
+opacity: 0.5;
+}
+
+.container section .All .uniqueClass .name{
+padding: 5px;
+color: saddlebrown;
+font-weight: bold;
+display: inline-block;
+margin:5px;
+}
+
