@@ -1,0 +1,181 @@
+body{
+margin: 0 auto;
+width:750px;
+
+}
+p{
+margin:0;
+padding:0;
+}
+
+header h1{
+color:violet;
+font-weight: bold;
+text-align: center;
+}
+
+header h3{
+color:violet;
+font-weight:normal;
+font-style: italic;
+text-align: center;
+}
+
+.container .description{
+color: azure; 
+font-family: monospace;
+background-color: gray;
+font-size: 18px;
+    }
+
+.container .content{
+color: azure; 
+font-family: monospace;
+background-color: gray;
+font-size: 18px;
+}    
+
+.container section .definition{
+
+background-color: white;
+position: absolute;
+padding-left: 15px;
+padding-right: 15px;
+top: -12px;
+left: 40px;
+font-size: 18px;
+
+
+}
+.container section .definition:hover{
+color: blue;
+    
+    
+    }
+
+.container section {
+position: relative;
+border: 2px dashed black;
+border-radius: 10px;
+margin-bottom: 60px;
+padding: 15px;
+
+}
+.container section .content{
+margin-bottom: 15px;
+}
+.container section .content .job{
+float: left;
+width: 50%;
+}
+
+.container section .content .data{
+float: right;
+width: 50%;
+}
+
+.container section h3{
+padding: 0;
+margin:0;
+}
+
+
+.container section .SkillsContent .name{
+display: inline-block;
+padding: 5px 5px;
+}
+
+.container section .top{
+background-color: blanchedalmond;
+}
+    
+.container section .bottom{
+background-color: blanchedalmond;
+}
+
+.container section .top .SkillsContent .logo{
+display: inline-block;
+padding: 5px 5px;
+}
+
+.container section .bottom .SkillsContent .logo{
+display: inline-block;
+padding: 5px 5px;
+}
+
+.container section .top .SkillsContent .logo>img{
+display: inline-block;
+width: 30px;
+}
+.container section .bottom .SkillsContent .logo>img{
+display: inline-block;
+width: 30px;
+}
+
+
+.container section .top .SkillsContent{
+float: left;
+width: 100px;
+margin: 20px 15px 20px 15px;
+padding: 5px 0px 0px 2px;
+border: 1px solid black;
+font-family: monospace;
+font-size: 14px;
+    
+    
+}
+.container section .bottom .SkillsContent{
+float: left;
+width: 100px;
+margin: 20px 15px 20px 15px;
+padding: 5px 0px 0px 2px;
+border: 1px solid black;
+font-family: monospace;
+font-size: 14px;
+    
+
+
+}
+
+.container section .top .SkillsContent .name .tooltip{
+visibility: hidden;
+width: 120px;
+background-color: #555;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 90%;
+left: 40%;
+
+
+}
+.container section .bottom .SkillsContent .name .tooltip{
+visibility: hidden;
+width: 120px;
+background-color: #555;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+bottom: 50%;
+left: 15%;
+    
+}
+.container section .bottom .SkillsContent .name:hover .tooltip{
+visibility:visible;
+}
+
+.container section .top .SkillsContent .name:hover .tooltip{
+visibility: visible;
+}
+
+
+.container section .SkillsContent .name:hover{
+color:red;
+transition:2s;
+}
