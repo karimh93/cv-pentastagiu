@@ -1,0 +1,422 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+body .title {
+    animation-name: example;
+    animation-duration: 10s;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px;
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    font-weight: bolder;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+body header .headerDescription {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+header, .aboutMe, .experience, .skills, footer {
+    background-color: gray;
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+}
+
+header {
+    margin-bottom: 2%;
+    margin-top: 5%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+section .theContainer .experience .firstList {
+    padding: 15% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+section .theContainer .experience .firstList>h4 {
+    margin: 2%;
+}
+
+section .theContainer .experience .secondList {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+section .theContainer .experience .secondList>h4 {
+    margin: 2%;
+}
+
+section .theContainer {
+    display: flex;
+    height: 500px;
+    width: 70vw;
+    height: 650px;
+}
+
+section .theContainer .aboutMe {
+    margin-right: 2%;
+    width: 50vw;
+    position: relative;
+}
+
+section .theContainer .aboutMe .aboutMeDescription {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 7% 3%;
+}
+
+section .theContainer .experience {
+    margin-right: 2%;
+    width: 50vw;
+    position: relative;
+}
+
+.skills {
+    width: 30vw;
+    position: relative;
+    display: flex;
+}
+
+.skills .skillsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+.skills .skillsContent .nameAndImage>img {
+    width: 40px;
+    height: 40px;
+}
+
+.skills .skillsContent .nameAndImage {
+    border: 1px dashed black;
+    display: flex;
+}
+
+.skills .skillsContent .nameAndImage .nameOfTheSkill {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    margin-top: 2%;
+    height: 140px;
+    position: relative;
+}
+
+footer .footerDescription>h3 {
+    margin: 5% 2% 2% 2%;
+}
+
+footer .footerDescription>p {
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 576px) {
+    body .title {
+        animation-name: example;
+        animation-duration: 10s;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 2px;
+        position: absolute;
+        top: -15px;
+        left: 5px;
+        font-weight: bolder;
+    }
+    @keyframes example {
+        0% {
+            background-color: red;
+        }
+        25% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: blue;
+        }
+        100% {
+            background-color: green;
+        }
+    }
+    body header .headerDescription {
+        text-align: center;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: lightgreen;
+        font-weight: bolder;
+    }
+    section {
+        display: block;
+    }
+    section .theContainer {
+        height: auto;
+        display: block;
+        width: auto;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    section .theContainer .aboutMe {
+        margin-top: 4%;
+        width: auto;
+        height: 150px;
+        margin-right: 0%;
+        position: relative;
+    }
+    section .theContainer .aboutMe .aboutMeDescription {
+        font-size: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 6%, 2%;
+    }
+    section .theContainer .experience {
+        margin-top: 4%;
+        width: auto;
+        height: 150px;
+        margin-right: 0%;
+        position: relative;
+        display: flex;
+    }
+    section .theContainer .experience .firstList {
+        padding: 5%;
+        width: 50%;
+        margin-top: 3%;
+    }
+    section .theContainer .experience .firstList>h4 {
+        margin: 1%;
+        font-size: 9px;
+    }
+    section .theContainer .experience .firstList .firstList-firstParagraph {
+        font-size: 8px;
+    }
+    section .theContainer .experience .secondList {
+        width: 50%;
+        margin-top: 3%;
+    }
+    section .theContainer .experience .secondList>h4 {
+        margin: 1%;
+        font-size: 9px;
+    }
+    section .theContainer .experience .secondList .secondList-firstParagraph {
+        font-size: 8px;
+    }
+    section .skills {
+        margin-top: 4%;
+        display: block;
+        width: auto;
+        height: 80px;
+        margin-right: 8%;
+        margin-left: 8%;
+        position: relative;
+    }
+    section .skills .skillsContent {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 8%;
+    }
+    .skills .skillsContent .nameAndImage>img {
+        width: 20px;
+        height: 20px;
+    }
+    .skills .skillsContent .nameAndImage {
+        margin-bottom: 3%;
+        margin-right: 3%;
+    }
+    header {
+        margin-top: 15%;
+        margin-right: 8%;
+        margin-left: 8%;
+        width: auto;
+        height: 80px;
+        position: relative;
+    }
+    footer {
+        height: 50px;
+        margin-top: 4%;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-bottom: 10%;
+        position: relative;
+        display: flex;
+    }
+    footer h3 {
+        margin: 10% 2% 2% 2%;
+        font-size: 10px;
+    }
+    footer .footerDescription {
+        font-size: 8px;
+        display: flex;
+        padding-left: 13%;
+        flex-direction: column;
+    }
+    footer .footerDescription>p {
+        margin: 2%;
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body .title {
+        animation-name: example;
+        animation-duration: 10s;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 2px;
+        position: absolute;
+        top: -15px;
+        left: 5px;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    @keyframes example {
+        0% {
+            background-color: red;
+        }
+        25% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: blue;
+        }
+        100% {
+            background-color: green;
+        }
+    }
+    body header .headerDescription {
+        text-align: center;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: lightgreen;
+        font-weight: bolder;
+    }
+    section {
+        display: flex;
+    }
+    section .theContainer {
+        height: auto;
+        display: block;
+        width: 70vw;
+        margin-left: 8%;
+    }
+    section .theContainer .aboutMe {
+        margin-bottom: 2%;
+        width: 51.5vw;
+        height: 300px;
+        margin-right: 0;
+        position: relative;
+    }
+    section .theContainer .aboutMe .aboutMeDescription {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 5%, 3%;
+    }
+    section .theContainer .experience {
+        width: 51.5vw;
+        height: 300px;
+        margin-right: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    section .theContainer .experience .firstList {
+        padding: 6% 3% 2% 3%;
+    }
+    section .theContainer .experience .firstList>h4 {
+        font-size: 14px;
+        margin: 1%;
+    }
+    section .theContainer .experience .firstList .firstList-firstParagraph {
+        font-size: 12px;
+    }
+    section .theContainer .experience .secondList {
+        padding: 0% 3%;
+    }
+    section .theContainer .experience .secondList>h4 {
+        font-size: 14px;
+        margin: 1%;
+    }
+    section .theContainer .experience .secondList .secondList-firstParagraph {
+        font-size: 12px;
+    }
+    section .skills {
+        width: 30vw;
+        height: 100hw;
+        margin-right: 8%;
+        position: relative;
+    }
+    header {
+        margin-top: 15%;
+        margin-right: 8%;
+        margin-left: 8%;
+        width: auto;
+        height: 100px;
+        margin-bottom: 1%;
+        position: relative;
+    }
+    footer {
+        height: 100px;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-bottom: 10%;
+        margin-top: 1%;
+        position: relative;
+        display: flex;
+    }
+}
+
+footer h3 {
+    margin: 10% 2% 2% 2%;
+    font-size: 10px;
+    display: inline-block;
+}
+
+footer .footerDescription {
+    font-size: 8px;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    flex-direction: column;
+   align-items: flex-start;
+}
+
+footer .footerDescription>p {
+    margin: 1%;
+    width: 50vw;
+}
+
