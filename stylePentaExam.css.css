@@ -1,0 +1,193 @@
+body {
+    margin: 0 3%;
+}
+
+header h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    background: url(./pic03.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+}
+
+nav ul li {
+    width: 11vw;
+}
+
+section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+section .container .background {
+    display: flex;
+    height: 250px;
+}
+
+section .container .background>img {
+    height: 250px;
+    width: 100%;
+}
+
+section .container .description {
+    display: flex;
+    height: 80px;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section .container .description .paragraph {
+    color: white;
+    align-self: center;
+    margin-right: 3%;
+}
+
+section .container .description .button {
+    align-self: center;
+    background-color: rgb(52, 142, 194);
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+}
+
+section .container .logoContainer {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5% 5% 5%;
+}
+
+section .container .logoContainer .firstLogo, .secondLogo, .thirdLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+section .container .logoContainer .logoImage {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+section .container .logoContainer .logoTitle {
+    align-self: center;
+}
+
+section .container .logoContainer .logoDescription {
+    font-size: 12px;
+    padding: 5%;
+    text-align: center;
+}
+
+section .container .aGiganticHeading {
+    background-color: rgb(240, 234, 234);
+    height: 170px;
+}
+
+section .container .aGiganticHeading .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container .aGiganticHeading .heading>h2 {
+    margin-top: 5%;
+}
+
+section .container .aGiganticHeading .heading>h4 {
+    color: grey;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    color: gray;
+}
+
+section .container .picturesAndText {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section .container .picturesAndText .firstPictureAndText, .secondPictureAndText, .thirdPictureAndText, .fourthPictureAndText {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+section .container .picturesAndText .firstText, .secondText, .thirdText, .fourthText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.picture {
+    width: 130px;
+    height: 130px;
+}
+
+section .container .picturesAndText .hfive {
+    margin-top: 0;
+    margin-left: 3%;
+}
+
+section .container .picturesAndText .pp {
+    margin-top: 0;
+    margin-left: 3%;
+    font-size: 10px;
+    color: grey;
+}
+
+section .container .picturesAndText .threeAndFour {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+section .container .blueContainer{
+display: flex;
+height: 100px;
+background-color:rgb(106, 193, 243);
+justify-content: center;
+align-items: center;
+
+
+}
+
+section .container .blueContainer .blueparagraph{
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
+section .container .blueContainer .bluebutton{
+background-color:rgb(238, 234, 234);
+width: 120px;
+height: 40px;
+border-radius: 10%;
+margin-left: 2%;
+font-weight: bold;
+}
